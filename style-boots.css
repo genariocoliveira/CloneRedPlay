@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;1,900&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --fonte-principal: 'Roboto', sans-serif;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.bg-dark{
+    padding: 10px !important;
+}
+.btn-test a{
+    background: #cf2020;
+    color: #fff !important;
+    padding: 15px 20px !important;
+    transition: ease-in-out .5s;
+    border-radius: 5px;
+}
+.btn-test a:hover{
+    color: #cf2020 !important;
+    background: #fff !important;
+}
+.nav-hover li a{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.nav-hover li a:hover{
+    color: #cf2020 !important;
+}
+.menu-hamburguer{
+    color: #fff;
+}
+
+/* Fim do menu */
+/* Início do card destaque */
+#card-principal{
+    background: #cf2020 url(https://redplayofficial.com.br/img/redplaybackground.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.container-principal{
+    height: 100vh;
+}
+.principal-text-custum{
+    color: #fff !important;
+    font-size: 40px !important;
+}
+.promocao{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #f8b600;
+    font-size: 40px;
+}
+.valor{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.5em;
+    color: #fff;
+}
+.plano{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+}
+.btn-custom-buy-top{
+    color: #fff;
+    padding: 0.8em 1.7em;
+    background-color: #cf2020;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.btn-custom-buy-top::before, .btn-custom-buy-top::after{
+    content: '';
+ display: block;
+ width: 50px;
+ height: 50px;
+ transform: translate(-50%, -50%);
+ position: absolute;
+ border-radius: 50%;
+ z-index: -1;
+ background-color: #fff;
+ transition: .6s ease;
+}
+.btn-custom-buy-top::before{
+    top: -1em;
+    left: -1em;
+}
+.btn-custom-buy-top::after{
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+}
+.btn-custom-buy-top:hover::before, .btn-custom-buy-top:hover::after{
+    height: 410px;
+    width: 410px;
+}
+.btn-custom-buy-top:hover{
+    color: #cf2020;
+}
+.btn-custom-buy-top:active{
+    filter: brightness(.8) !important;
+}
+
+.btn-custom-buy{
+    color: #cf2020;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.btn-custom-buy::before, .btn-custom-buy::after{
+    content: '';
+ display: block;
+ width: 50px;
+ height: 50px;
+ transform: translate(-50%, -50%);
+ position: absolute;
+ border-radius: 50%;
+ z-index: -1;
+ background-color: #cf2020;
+ transition: .6s ease;
+}
+.btn-custom-buy::before{
+    top: -1em;
+    left: -1em;
+}
+.btn-custom-buy::after{
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+}
+.btn-custom-buy:hover::before, .btn-custom-buy:hover::after{
+    height: 410px;
+    width: 410px;
+}
+.btn-custom-buy:hover{
+    color: #fff;
+}
+.btn-custom-buy:active{
+    filter: brightness(.8) !important;
+}
+
+/* Inico Texto destaque */
+.text-center-red{
+    color: #cf2020;
+    font-weight: 700;
+}
+.text-center-bold{
+    font-family: var(--fonte-principal);
+    font-size: 4em;
+    font-weight: 800;
+}
+/* Fim card-principal */
+.card:hover{
+    box-shadow: 0 0 3px 0 #cf2020;
+}
+.size-img{
+    width: 400px !important;
+    margin-left: -60px;
+}
+.text-custom-valor{
+    font-family: var(--fonte-principal);
+    font-size: 2em;
+    font-weight: 900;
+    margin-top: 1em;
+}
+.text-custom-descriction{
+    font-family: var(--fonte-principal);
+    font-size: 1.2em;
+    color: #ADAAAA;
+}
+
+/* Imagens img-fluid */
+.img-edited {
+    max-width: 70% !important;
+    height: auto;
+}
+
+.display-4{
+    font-size: 3rem;
+}
+
+/*  */
+.text-center-buy{
+    color: #ADAAAA;
+    font-size: 1em;
+}
+.text-center-bold-buy{
+    font-size: 3.5em;
+}
+.nota{
+    font-weight: 900;
+}
+.fa-star{
+    color: #f8b600;
+}
+.text-pequeno{
+    font-size: .7em;
+}
+.btn-danger-custom{
+    background: #cf2020;
+    color: #fff;
+    width: 160px;
+    border-radius: 10px;
+}
+.btn-danger-custom:hover{
+    color: #fff;
+}
+.fa-mobile-screen-button{
+    padding-top: 20px;
+}
+.Device{
+    margin-top: -15px;
+}
+.btn-danger-custom-large{
+    background: #cf2020;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.text-grande{
+    font-size: 2rem;
+}
+.Device-size{
+    font-size: 1.2rem;
+    margin-top: -25px;
+}
+
+/* Rodapé */
+.container-footer{
+    padding: 15px 0;
+}
+.conteudo-rodape{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 70px;
+}
+.conteudo-rodape P{
+    margin-top: 15px;
+}
+.img-fluid-footer{
+    width: 50px;
+}
+/* Media Querys */
+
+/*Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) { 
+    /* Menu */
+    .btn-test{
+        margin: 0 auto;
+    }
+    /* Fim Menu */
+    /* Inicio Card Principal */
+    #card-principal{
+        padding-top: 5vh;
+        height: 100%;
+    }
+    .col-md-6{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-left: 1rem;
+    }
+    .card-principal-d-none-sm{
+        display: none;
+    }
+    .text-center-red{
+        font-size: 20px;
+    }
+    .text-center-bold{
+        font-size: 30px;
+    }
+    /* Fim card Principal */
+    /* Inicio card Planos */
+    .card-planos{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-top: 10px;
+    }
+    .descriction-card-teste-gratis{
+        display: flex;
+        flex-direction: column;
+    }
+    .display-4{
+        font-size: 2.5rem;
+    }
+    .btn-danger-custom{
+        background: #cf2020;
+        display: inline-block;
+        color: #fff;
+        width: 120px;
+        height: 100px;
+        border-radius: 10px;
+        margin: 10px 5px !important;
+    }
+    .fa-mobile-screen-button{
+        font-size: 1.5em;
+        margin-top: -8px;
+    }
+    .text-pequeno{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .Device{
+        font-size: 15px;
+        margin-top: -18px;
+    }
+    .btn-danger-custom-large{
+        width: 97%;
+        margin: auto;
+    }
+    /* Fim Card Planos */
+}
+
+/*Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Menu */
+    .btn-test{
+        margin: 0 auto;
+    }
+    /* Fim Menu */
+    /* Inicio Card Principal */
+    #card-principal{
+        padding-top: 5vh;
+        height: 100%;
+    }
+    .col-md-6{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-left: 1rem;
+    }
+    .card-principal-d-none-sm{
+        display: none;
+    }
+    /* Fim card Principal */
+    /* Inicio card Planos */
+    .card-planos{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-top: 10px;
+    }
+    .img-fluid-spider{  
+        margin-left: -5px;
+    }
+    .descriction-card-teste-gratis{
+        display: flex;
+        flex-direction: column;
+    }
+    .display-4{
+        font-size: 2.5rem;
+    }
+    .btn-danger-custom{
+        background: #cf2020;
+        display: inline-block;
+        color: #fff;
+        width: 180px;
+        height: 120px;
+        border-radius: 10px;
+        margin: 10px 5px !important;
+    }
+    .fa-mobile-screen-button{
+        font-size: 2em;
+        margin-top: -8px;
+    }
+    .text-pequeno{
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    .Device{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+    .btn-danger-custom-large{
+        width: 98%;
+        margin: auto;
+    }
+    /* Fim Card Planos */
+}
+
+/* Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container-spider-man{
+        display: inline-block;
+    }
+    .img-fluid-spider{
+        max-width: 100% !important;
+        display: flex;
+        justify-content: center;
+    }
+    .card-fluid-spider{
+        max-width: 100%;
+    }
+    .btn-devices{
+        margin: auto;
+        justify-content: center;
+    }
+    .btn-danger-custom{
+        background: #cf2020;
+        display: inline-block;
+        color: #fff;
+        width: 190px;
+        height: 120px;
+        border-radius: 10px;
+        margin-bottom: 20px !important;
+    }
+    .fa-mobile-screen-button{
+        font-size: 2em;
+        margin-top: -8px;
+    }
+    .text-pequeno{
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    .Device{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+    .btn-danger-custom-large{
+        width: 94%;
+        margin: auto;
+    }
+}
+
+/*Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .btn-test{
+        padding-left: 30px;
+    }
+    
+    .btn-danger-custom{
+        background: #cf2020;
+        color: #fff;
+        width: 140px;
+        border-radius: 10px;
+    }
+}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) {
+    .btn-test{
+        padding-left: 30px;
+    }
+}
